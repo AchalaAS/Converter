@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weight convertor</title>
+  </head>
+
+  <body>
+    <center>
+      <header>
+        <h1>Weight Converter</h1>
+      </header>
+
+      <!-- menu bar -->
+      <nav>
+        <a href="#Pounds" id="nav-left">Pounds to</a>
+        <a href="#Kilograms" id="nav-left">Kilograms to</a>
+        <a href="#Ounces" id="nav-left">Ounces to</a>
+        <a href="#Grams" id="nav-left">Grams to</a>
+        <a href="#Stones" id="nav-left">Stones to</a>
+      </nav>
+
+      <div class="border">
+        <section id="Pounds">
+          <h2>Pounds to other</h2>
+          <table>
+            <tr>
+              <td><strong>Pounds:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun1(this.value);fun2(this.value);fun3(this.value);fun4(this.value)"
+                  onchange="fun1(this.value);fun2(this.value);fun3(this.value);fun4(this.value)"
+                  placeholder="Pounds to"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Kilograms:</strong></td>
+              <td id="id1"></td>
+            </tr>
+
+            <tr>
+              <td><strong>Ounces:</strong></td>
+              <td id="id2"></td>
+            </tr>
+            <tr>
+              <td><strong>Grams:</strong></td>
+              <td id="id3"></td>
+            </tr>
+            <tr>
+              <td><strong>Stones:</strong></td>
+              <td id="id4"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Kilograms">
+          <h2>Kilograms to other</h2>
+          <table>
+            <tr>
+              <td><strong>Kilograms:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun5(this.value);fun6(this.value);fun7(this.value);fun8(this.value)"
+                  onchange="fun5(this.value);fun6(this.value);fun7(this.value);fun8(this.value)"
+                  placeholder="Kilograms to"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Pounds:</strong></td>
+              <td id="id5"></td>
+            </tr>
+            <tr>
+              <td><strong>Ounces:</strong></td>
+              <td id="id6"></td>
+            </tr>
+            <tr>
+              <td><strong>Grams:</strong></td>
+              <td id="id7"></td>
+            </tr>
+            <tr>
+              <td><strong>Stones:</strong></td>
+              <td id="id8"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Ounces">
+          <h2>Ounces to other</h2>
+          <table>
+            <tr>
+              <td><strong>Ounces:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun9(this.value);fun10(this.value);fun11(this.value);fun12(this.value)"
+                  onchange="fun9(this.value);fun10(this.value);fun11(this.value);fun12(this.value)"
+                  placeholder="Ounces to"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Pounds:</strong></td>
+              <td id="id9"></td>
+            </tr>
+            <tr>
+              <td><strong>Kilograms:</strong></td>
+              <td id="id10"></td>
+            </tr>
+            <tr>
+              <td><strong>Grams:</strong></td>
+              <td id="id11"></td>
+            </tr>
+            <tr>
+              <td><strong>Stones:</strong></td>
+              <td id="id12"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Grams">
+          <h2>Grams to other</h2>
+          <table>
+            <tr>
+              <td><strong>Grams:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun13(this.value);fun14(this.value);fun15(this.value);fun16(this.value)"
+                  onchange="fun13(this.value);fun14(this.value);fun15(this.value);fun16(this.value)"
+                  placeholder="Grams to"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Pounds:</strong></td>
+              <td id="id13"></td>
+            </tr>
+            <tr>
+              <td><strong>Kilograms:</strong></td>
+              <td id="id14"></td>
+            </tr>
+            <tr>
+              <td><strong>Ounces:</strong></td>
+              <td id="id15"></td>
+            </tr>
+            <tr>
+              <td><strong>Stones:</strong></td>
+              <td id="id16"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Stones">
+          <h2>Stones to other</h2>
+          <table>
+            <tr>
+              <td><strong>Stones:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun17(this.value);fun18(this.value);fun19(this.value);fun20(this.value)"
+                  onchange="fun17(this.value);fun18(this.value);fun19(this.value);fun20(this.value)"
+                  placeholder="Stones to"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Pounds:</strong></td>
+              <td id="id17"></td>
+            </tr>
+            <tr>
+              <td><strong>Kilograms:</strong></td>
+              <td id="id18"></td>
+            </tr>
+            <tr>
+              <td><strong>Ounces:</strong></td>
+              <td id="id19"></td>
+            </tr>
+            <tr>
+              <td><strong>Grams:</strong></td>
+              <td id="id20"></td>
+            </tr>
+          </table>
+        </section>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <p>Created By: <i>Achala Srivastava</i></p>
+      </footer>
+    </center>
+
+    <script src="js/wc.js"></script>
+  </body>
+</html>

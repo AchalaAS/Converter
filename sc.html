@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Speed Converter</title>
+  </head>
+
+  <body>
+    <center>
+      <header>
+        <h1>Speed Converter</h1>
+      </header>
+      <!-- menu bar -->
+      <nav>
+        <a href="#MPH" id="nav-left">MPH to</a>
+        <a href="#KPH" id="nav-left">KPH to</a>
+        <a href="#Knots" id="nav-left">Knots to</a>
+        <a href="#Mach" id="nav-left">Mach to</a>
+      </nav>
+
+      <div class="border">
+        <section id="MPH">
+          <h2>MPH to other</h2>
+          <table>
+            <tr>
+              <td><strong>MPH:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun1(this.value);fun2(this.value);fun3(this.value);"
+                  onchange="fun1(this.value);fun2(this.value);fun3(this.value);"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>KPH:</strong></td>
+              <td id="id1"></td>
+            </tr>
+            <tr>
+              <td><strong>Knots:</strong></td>
+              <td id="id2"></td>
+            </tr>
+            <tr>
+              <td><strong>Mach:</strong></td>
+              <td id="id3"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="KPH">
+          <h2>KPH to others</h2>
+          <table>
+            <tr>
+              <td><strong>KPH:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun4(this.value);fun5(this.value);fun6(this.value);"
+                  onchange="fun4(this.value);fun5(this.value);fun6(this.value);"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>MPH:</strong></td>
+              <td id="id4"></td>
+            </tr>
+            <tr>
+              <td><strong>Knots:</strong></td>
+              <td id="id5"></td>
+            </tr>
+            <tr>
+              <td><strong>Mach:</strong></td>
+              <td id="id6"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Knots">
+          <h2>Knots to other</h2>
+          <table>
+            <tr>
+              <td><strong>Knots:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun7(this.value);fun8(this.value);fun9(this.value);"
+                  onchange="fun7(this.value);fun8(this.value);fun9(this.value);"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>MPH:</strong></td>
+              <td id="id7"></td>
+            </tr>
+            <tr>
+              <td><strong>KPH:</strong></td>
+              <td id="id8"></td>
+            </tr>
+            <tr>
+              <td><strong>Mach:</strong></td>
+              <td id="id9"></td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Mach">
+          <h2>Mach to other</h2>
+          <table>
+            <tr>
+              <td><strong>Mach:</strong></td>
+              <td>
+                <input
+                  type="number"
+                  oninput="fun10(this.value);fun11(this.value);fun12(this.value);"
+                  onchange="fun10(this.value);fun11(this.value);fun12(this.value);"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><strong>MPH:</strong></td>
+              <td id="id10"></td>
+            </tr>
+            <tr>
+              <td><strong>KPH:</strong></td>
+              <td id="id11"></td>
+            </tr>
+            <tr>
+              <td><strong>Knots:</strong></td>
+              <td id="id12"></td>
+            </tr>
+          </table>
+        </section>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <p>Created By: <i>Achala Srivastava</i></p>
+      </footer>
+    </center>
+    <script src="js/sc.js"></script>
+  </body>
+</html>

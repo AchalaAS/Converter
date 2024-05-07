@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Length Converter</title>
+</head>
+
+<body>
+  <center>
+    <header>
+      <h1>Length Converter</h1>
+    </header>
+
+    <!-- menu bar -->
+    <nav>
+      <a href="#Feet" id="nav-left">Feet to</a>
+      <a href="#Meters" id="nav-left">Meters to</a>
+      <a href="#Inches" id="nav-left">Inches to</a>
+      <a href="#cm" id="nav-left">cm to</a>
+      <a href="#Yards" id="nav-left">Yards to</a>
+      <a href="#Kilometers" id="nav-left">Kilometers to</a>
+      <a href="#Miles" id="nav-left">Miles to</a>
+    </nav>
+
+    <div class="border">
+      <section id="Feet">
+        <h2>Feet to other</h2>
+        <table>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun1(this.value);fun2(this.value);fun3(this.value);fun4(this.value);fun5(this.value);fun6(this.value)"
+                onchange="fun1(this.value);fun2(this.value);fun3(this.value);fun4(this.value);fun5(this.value);fun6(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td id="id1"></td>
+          </tr>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td id="id2"></td>
+          </tr>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td id="id3"></td>
+          </tr>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td id="id4"></td>
+          </tr>
+          <tr>
+            <td><strong>Kilometers:</strong></td>
+            <td id="id5"></td>
+          </tr>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td id="id6"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Meters">
+        <h2>Meters to other</h2>
+        <table>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun7(this.value);fun8(this.value);fun9(this.value);fun10(this.value);fun11(this.value);fun12(this.value)"
+                onchange="fun7(this.value);fun8(this.value);fun9(this.value);fun10(this.value);fun11(this.value);fun12(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td id="id7"></td>
+          </tr>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td id="id8"></td>
+          </tr>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td id="id9"></td>
+          </tr>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td id="id10"></td>
+          </tr>
+          <tr>
+            <td><strong>Kilometers:</strong></td>
+            <td id="id11"></td>
+          </tr>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td id="id12"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Inches">
+        <h2>Inches to other</h2>
+        <table>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun13(this.value);fun14(this.value);fun15(this.value);fun16(this.value);fun17(this.value);fun18(this.value)"
+                onchange="fun13(this.value);fun14(this.value);fun15(this.value);fun16(this.value);fun17(this.value);fun18(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td id="id13"></td>
+          </tr>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td id="id14"></td>
+          </tr>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td id="id15"></td>
+          </tr>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td id="id16"></td>
+          </tr>
+          <tr>
+            <td><strong>Kilometers:</strong></td>
+            <td id="id17"></td>
+          </tr>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td id="id18"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="cm">
+        <h2>cm to other</h2>
+        <table>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun19(this.value);fun20(this.value);fun21(this.value);fun22(this.value);fun23(this.value);fun24(this.value)"
+                onchange="fun19(this.value);fun20(this.value);fun21(this.value);fun22(this.value);fun23(this.value);fun24(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td id="id19"></td>
+          </tr>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td id="id20"></td>
+          </tr>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td id="id21"></td>
+          </tr>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td id="id22"></td>
+          </tr>
+          <tr>
+            <td><strong>Kilometers:</strong></td>
+            <td id="id23"></td>
+          </tr>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td id="id24"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Yards">
+        <h2>Yards to other</h2>
+        <table>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun25(this.value);fun26(this.value);fun27(this.value);fun28(this.value);fun29(this.value);fun30(this.value)"
+                onchange="fun25(this.value);fun26(this.value);fun27(this.value);fun28(this.value);fun29(this.value);fun30(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td id="id25"></td>
+          </tr>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td id="id26"></td>
+          </tr>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td id="id27"></td>
+          </tr>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td id="id28"></td>
+          </tr>
+          <tr>
+            <td><strong>Kilometers:</strong></td>
+            <td id="id29"></td>
+          </tr>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td id="id30"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Kilometers">
+        <h2>Kilometers to other</h2>
+        <table>
+          <tr>
+            <td><strong>Kilometers:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun31(this.value);fun32(this.value);fun33(this.value);fun34(this.value);fun35(this.value);fun36(this.value)"
+                onchange="fun31(this.value);fun32(this.value);fun33(this.value);fun34(this.value);fun35(this.value);fun36(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td id="id31"></td>
+          </tr>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td id="id32"></td>
+          </tr>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td id="id33"></td>
+          </tr>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td id="id34"></td>
+          </tr>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td id="id35"></td>
+          </tr>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td id="id36"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Miles">
+        <h2>Miles to other</h2>
+        <table>
+          <tr>
+            <td><strong>Miles:</strong></td>
+            <td>
+              <input type="number"
+                oninput="fun37(this.value);fun38(this.value);fun39(this.value);fun40(this.value);fun41(this.value);fun42(this.value)"
+                onchange="fun37(this.value);fun38(this.value);fun39(this.value);fun40(this.value);fun41(this.value);fun42(this.value)" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Feet:</strong></td>
+            <td id="id37"></td>
+          </tr>
+          <tr>
+            <td><strong>Meters:</strong></td>
+            <td id="id38"></td>
+          </tr>
+          <tr>
+            <td><strong>Inches:</strong></td>
+            <td id="id39"></td>
+          </tr>
+          <tr>
+            <td><strong>cm:</strong></td>
+            <td id="id40"></td>
+          </tr>
+          <tr>
+            <td><strong>Yards:</strong></td>
+            <td id="id41"></td>
+          </tr>
+          <tr>
+            <td><strong aria-placeholder="Kilometers">Kilometers:</strong></td>
+            <td id="id42"></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Created By: <i>Achala Srivastava</i></p>
+    </footer>
+
+  </center>
+
+  <script src="js/lc.js"></script>
+
+</body>
+
+</html>

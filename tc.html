@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Temperature Converter</title>
+</head>
+
+<body>
+  <center>
+    <header>
+      <h1>Temperature Converter</h1>
+    </header>
+
+    <!-- menu bar -->
+    <nav>
+      <a href="#Fahrenheit" id="nav-left">Fahrenheit to</a>
+      <a href="#Celsius" id="nav-left">Celsius to</a>
+      <a href="#Kelvin" id="nav-left">Kelvin to</a>
+    </nav>
+
+    <div class="border">
+      <section id="Fahrenheit">
+        <h2>Fahrenheit to other</h2>
+        <table>
+          <tr>
+            <td><strong>Fahrenheit:</strong></td>
+            <td>
+              <input type="number" oninput="fun1(this.value);fun2(this.value)"
+                onchange="fun1(this.value);fun2(this.value)" placeholder="Fahrenheit to" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Celsius:</strong></td>
+            <td id="id1"></td>
+          </tr>
+          <tr>
+            <td><strong>Kelvin:</strong></td>
+            <td id="id2"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Celsius">
+        <h2>Celsius to other</h2>
+        <table>
+          <tr>
+            <td><strong>Celsius:</strong></td>
+            <td>
+              <input type="number" oninput="fun3(this.value);fun4(this.value)"
+                onchange="fun3(this.value);fun4(this.value)" placeholder="Celsius to" />
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Fahrenheit:</strong></td>
+            <td id="id3"></td>
+          </tr>
+          <tr>
+            <td><strong>Kelvin:</strong></td>
+            <td id="id4"></td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="Kelvin">
+        <h2>Kelvin to other</h2>
+        <table>
+          <tr>
+            <td><strong>Kelvin:</strong></td>
+            <td><input type="number" oninput="fun5(this.value);fun6(this.value)"
+                onchange="fun5(this.value);fun6(this.value)" placeholder="Kelvin to" /></td>
+          </tr>
+          <tr>
+            <td><strong>Fahrenheit:</strong></td>
+            <td id="id5"></td>
+          </tr>
+          <tr>
+            <td><strong>Celsius:</strong></td>
+            <td id="id6"></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Created By: <i>Achala Srivastava</i></p>
+    </footer>
+
+  </center>
+  <script src="js/tc.js"></script>
+</body>
+
+</html>
