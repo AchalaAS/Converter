@@ -14,19 +14,19 @@ html {
 
 /* header  */
 header {
-  background-color: crimson;
-  border: 2px solid crimson;
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
   line-height: 80px;
 }
 header h1 {
   color: white;
-  background-color: crimson;
+  background-color: blueviolet;
   text-align: center;
 }
 
 /* nav  */
 nav {
-  background-color: crimson;
+  background-color: blueviolet;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   overflow: hidden;
@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  color: crimson;
+  color: blueviolet;
   background-color: white;
   text-decoration: underline;
 }
@@ -57,7 +57,7 @@ nav a:active {
 
 /* border */
 .border {
-  border: 5px solid crimson;
+  border: 5px solid blueviolet;
   padding: 5px;
   background-color: darkgrey;
 }
@@ -69,13 +69,13 @@ section {
   background-color: aquamarine;
   padding: 40px;
   border: 10px solid white;
-  outline: solid crimson;
+  outline: solid blueviolet;
 }
 
 /* padding: 20px; */
 section h2 {
   text-decoration: underline;
-  color: crimson;
+  color: blueviolet;
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ table {
 }
 
 table td {
-  border: 2px solid crimson;
+  border: 2px solid blueviolet;
   padding: 3px;
 }
 table input {
@@ -96,7 +96,7 @@ table input {
 
 /* footer  */
 footer {
-  background-color: crimson;
+  background-color: blueviolet;
   line-height: 40px;
   text-align: center;
   color: white;
