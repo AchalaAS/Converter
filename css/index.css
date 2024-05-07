@@ -1,0 +1,85 @@
+/* LENGTH CONVERTER  */
+/* BODY */
+body {
+  background-color: aqua;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  background-color: blueviolet;
+  color: aqua;
+  padding: 1px;
+  color: white;
+  border: solid white;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+/* container  */
+.container {
+  background: turquoise;
+  border: solid white;
+  padding: 10px;
+  color: white;
+  background-color: blueviolet;
+}
+.container p {
+  color: white;
+  text-align: center;
+}
+
+/* container_a  */
+.container_a {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: solid blueviolet;
+  background-color: aqua;
+}
+
+/* container_b */
+.container_b {
+  background-color: white;
+  padding: 25px;
+  border: 25px solid blueviolet;
+  margin: 25px;
+  text-align: center;
+  width: 280px;
+}
+
+.container_b h1 {
+  color: black;
+}
+.container_b p {
+  color: black;
+}
+/* footer */
+footer {
+  border: solid;
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+}
+footer span a {
+  color: aqua;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
+
+/* button */
+button{
+  background-color: blueviolet;
+}
+ button a{
+  color: aqua;
+text-decoration: none;
+ }
