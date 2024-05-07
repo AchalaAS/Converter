@@ -65,6 +65,7 @@ nav a:active {
   /*  */
   padding: 1px;
   overflow: hidden;
+  background-color: aqua;
 }
 
 /* section */
@@ -78,7 +79,7 @@ section {
   /*  */
    border: 8px solid white;
 padding: 15px;
-  background-color: aqua;
+  
 }
 
 /* padding: 20px; */
