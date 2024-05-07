@@ -78,6 +78,7 @@ section {
   /*  */
    border: 8px solid white;
 padding: 15px;
+  background-color: aqua;
 }
 
 /* padding: 20px; */
