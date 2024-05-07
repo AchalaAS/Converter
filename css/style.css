@@ -53,7 +53,6 @@ nav a:hover {
 nav a:active {
   background-color: blue;
   color: white;
-    width: 100%;
 }
 
 /* border */
@@ -61,6 +60,7 @@ nav a:active {
   border: 5px solid blueviolet;
   padding: 5px;
   background-color: darkgrey;
+   width: 100%;
 }
 
 /* section */
